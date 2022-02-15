@@ -19,7 +19,7 @@ BIN ?= velero-plugin-for-aws
 PKG := github.com/vmware-tanzu/velero-plugin-for-aws
 
 # Where to push the docker image.
-REGISTRY ?= velero
+REGISTRY ?= vchrisb
 
 # Image name
 IMAGE ?= $(REGISTRY)/$(BIN)
